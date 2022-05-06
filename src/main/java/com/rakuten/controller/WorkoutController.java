@@ -3,6 +3,7 @@ package com.rakuten.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -29,6 +30,12 @@ public class WorkoutController {
 	@ResponseStatus(code = HttpStatus.NOT_FOUND)
 	void handleNotFound() 
 	{
+//		
+	}
+	
+	@ExceptionHandler(EmptyResultDataAccessException.class)
+	@ResponseStatus(code = HttpStatus.NOT_FOUND)
+	void handleIdNotFound() {
 //		
 	}
 	
