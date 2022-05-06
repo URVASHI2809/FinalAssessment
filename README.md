@@ -11,7 +11,7 @@ post request
 {
     "note": "30 mins workout",
     "title": "Surya-namaskar",
-    "caloriesBurntPerMinute": 481.20,
+    "caloriesBurntPerMinute": 280.20,
     "category": "YOGA"
 }
 
@@ -39,7 +39,7 @@ update values (put request)
         "id": 2,
         "note": "45 mins workout",
         "title": "Cobrapose",
-        "caloriesBurntPerMinute": 481.20,
+        "caloriesBurntPerMinute": 280.20,
         "category": "YOGA"
 }
 
