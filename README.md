@@ -9,8 +9,8 @@ post request
 **********************
 
 {
-    "title": "Surya-namaskar",
     "note": "30 mins workout",
+    "title": "Surya-namaskar",
     "caloriesBurntPerMinute": 481.20,
     "category": "YOGA"
 }
@@ -26,19 +26,19 @@ search by id
 
 
 delete by id (delete request)
-- http://localhost:8081/workout/delete?id={ID_Number}
+- http://localhost:8081/workout/deleted?id={ID_Number}
 
 
 update values (put request)
-- http://localhost:8081/workout/update?id={ID_Number}
+- http://localhost:8081/workout/updated?id={ID_Number}
 
 
 **********************
 
 {
         "id": 2,
+        "note": "45 mins workout",
         "title": "Cobrapose",
-        "note": "45 mins",
         "caloriesBurntPerMinute": 481.20,
         "category": "YOGA"
 }
