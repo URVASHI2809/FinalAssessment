@@ -38,7 +38,7 @@ update values (put request)
 {
         "id": 2,
         "title": "Cobrapose",
-        "note": "do this for 14 minutes",
+        "note": "45 mins",
         "caloriesBurntPerMinute": 481.20,
         "category": "YOGA"
 }
