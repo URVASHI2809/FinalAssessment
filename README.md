@@ -4,7 +4,7 @@ category is a enum and can only accept : (CYCLING, AEROBICS, YOGA, DANCING)
 
 
 post request 
-- http://localhost:8081/workout
+- http://localhost:8080/workout
 
 **********************
 
@@ -18,19 +18,19 @@ post request
 ***********************
 
 get request 
-- http://localhost:8081/workout
+- http://localhost:8080/workout
 
 
 search by id
-- http://localhost:8081/workout/id?id={ID_Number}
+- http://localhost:8080/workout/id?id={ID_Number}
 
 
 delete by id (delete request)
-- http://localhost:8081/workout/deleted?id={ID_Number}
+- http://localhost:8080/workout/deleted?id={ID_Number}
 
 
 update values (put request)
-- http://localhost:8081/workout/updated?id={ID_Number}
+- http://localhost:8080/workout/updated?id={ID_Number}
 
 
 **********************
